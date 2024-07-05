@@ -6,7 +6,6 @@ function distinctArray(arr) {
     }
     let newArr = []
     
-    console.log(obj)
     for(const key in obj) {
         if(obj[key] === 1) {
             newArr.push(key)
